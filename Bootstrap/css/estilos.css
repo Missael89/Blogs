@@ -1,1 +1,45 @@
+.logo-img {
+  width: 100px;
+  padding: 1rem;
+}
 
+.navbar-inverse {
+  background-color: black;
+  min-height: 10%;
+  text-align: center;
+}
+
+.encabezado-logo-redes {
+  border-bottom: 1px dotted black;
+  background-color: lightgrey;
+}
+
+.redes-sociales {
+  text-align: right;
+  margin-top: 40px;
+  padding: 1rem;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+.lista-busqueda {
+  margin-top: 2rem;
+}
+
+.comentario-usuario {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 990px) {
+  .redes-sociales {
+    text-align: center;
+  }
+
+  .contenedor-busqueda {
+    display: none;
+  }
+}
